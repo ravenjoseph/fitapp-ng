@@ -1,2 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'scss/custom.scss';
+@import 'src/scss/custom.scss';
+
+body {
+  background-color: #121212;
+  color: white;
+}
