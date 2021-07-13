@@ -1,14 +1,17 @@
 @import 'src/styles.scss';
 
-    .price-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      column-gap: 0.25rem;
-    }
-
-.mx-rem {
-  margin: 0 22.5rem;
+.price-card-layout {
+  display: flex;
+  align-items: stretch;
 }
+
+.price-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.25rem;
+}
+
+
 
 $extra-small: 540px;
 $small: 576px;
@@ -16,25 +19,22 @@ $medium: 768px;
 $large: 992px;
 $extra-large: 1200px;
 @media screen and (max-width: $extra-large) {
-  .mx-rem {
-    margin: 0 15rem;
+  .price-card-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
   }
 }
 
 @media screen and (max-width: $large) {
-  .mx-rem {
-    margin: 0 5rem;
-  }
+
 }
 
 @media screen and (max-width: $medium) {
-  .mx-rem {
-    margin: 0 4rem;
-  }
+
 }
 
 @media screen and (max-width: $small) {
-  .mx-rem {
-    margin: 0 ;
-  }
+
 }

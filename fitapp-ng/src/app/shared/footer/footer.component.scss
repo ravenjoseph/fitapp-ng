@@ -55,7 +55,15 @@ $extra-large: 1200px;
     grid-template-columns: 1fr 1fr;
   }
   .pt-rem {
-    padding-top: 3rem;
+    padding-top: 5rem;
+  }
+
+  img {
+    width: 30%;
+  }
+
+  .mt-rem {
+    margin-top: 3rem;
   }
 
 }
@@ -65,8 +73,11 @@ $extra-large: 1200px;
     display: grid;
     grid-template-columns: 1fr;
   }
-  .pt-rem {
-    padding-top: 2rem;
+  img {
+    margin-left: 3rem;
+  }
+  .mt-rem {
+    margin-top: 3rem;
   }
 
 }

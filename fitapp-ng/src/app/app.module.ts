@@ -8,6 +8,8 @@ import { MembershipComponent } from './membership/membership.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { WorkoutProgramsComponent } from './workout-programs/workout-programs.component';
+import { MealPlansComponent } from './meal-plans/meal-plans.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { WorkoutProgramsComponent } from './workout-programs/workout-programs.co
     MembershipComponent,
     HeaderComponent,
     FooterComponent,
-    WorkoutProgramsComponent
+    WorkoutProgramsComponent,
+    MealPlansComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

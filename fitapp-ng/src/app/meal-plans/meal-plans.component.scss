@@ -1,0 +1,38 @@
+@import 'src/styles.scss';
+
+.meal-type {
+  background-color: black;
+}
+
+.meal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+$extra-small: 540px;
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+$double-extra-large: 1400px;
+
+
+@media screen and (max-width: $double-extra-large) {
+  .meal-grid {
+    display: block;
+  }
+}
+
+@media screen and (max-width: $large) {
+
+}
+
+@media screen and (max-width: $medium) {
+
+
+}
+
+@media screen and (max-width: $extra-small) {
+
+}
