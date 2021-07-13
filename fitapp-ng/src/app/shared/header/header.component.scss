@@ -1,0 +1,25 @@
+@import 'src/styles.scss';
+
+.ms-rem {
+  margin-left: 3rem;
+}
+
+
+$extra-small: 540px;
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+@media screen and (max-width: $large) {
+  .ms-rem {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: $medium) {
+
+}
+
+@media screen and (max-width: $extra-small) {
+
+}

@@ -1,39 +1,4 @@
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
-      <div class="container-fluid">
-        <a class="navbar-brand ms-5" href="#">
-          <img src="src/assets/images/Logo.png"  alt="FitApp">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-3">
-            <li class="nav-item ms-5">
-              <a class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item ms-5">
-              <a class="nav-link" href="#">Plans</a>
-            </li>
-            <li class="nav-item dropdown ms-5">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Programs
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Meal Plans</a></li>
-                <li><a class="dropdown-item" href="#">Workout Programs</a></li>
-                <li><a class="dropdown-item" href="#">Workout Types</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <button type="button" class="btn btn-outline-primary ms-5">Join</button>
-            <button type="button" class="btn btn-primary ms-3 me-5">Hi! Login</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
+<app-header></app-header>
   <body>
     <section>
       <div style="height: 25vh;">
@@ -59,18 +24,24 @@
           <div class="col p-4 mx-1 section-2-p-1" style="background-color: black;">
             <h1 class="display-4 fw-bold">Work out at home for free.</h1>
             <p class="fs-5">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts, healthy recipes and informative articles, as well as one of the most positive communities on the web, you’ll have everything you need to reach your personal fitness goals – for free! </p>
-            <div class="d-flex">
-              <button type="button" class="btn btn-outline-primary me-2"> Browse videos</button>
-              <button type="button" class="btn btn-primary px-5">Join</button>
-            </div>
-        </div>
-          <div class="col p-4 mx-1 mt-3 section-1-p-2" style="background-color: black;">
+              <div class="d-flex">
+                <button type="button" class="btn btn-outline-primary me-2"> Browse videos</button>
+                <button type="button" class="btn btn-primary px-5">Join</button>
+              </div>
+          </div>
+          <div class="section-2-p-2">
+            <img class="img-fluid" src="/assets/images/devices.svg" alt="Electronic devices">
+          </div>
+          <div class="section-2-p-3">
+            <img class="img-fluid" src="/assets/images/credit_card.svg" alt="Electronic devices">
+          </div>
+          <div class="col p-4 mx-1 mt-3 section-2-p-4" style="background-color: black;">
             <h1 class="display-4 fw-bold">Get more with low-cost training programs and advanced features.</h1>
             <p class="fs-5">If you want more guidance or additional tools to get the most out of all the content available, we also have low-cost, professionally developed programs and meal plans to follow, and a monthly membership that adds extra, exclusive workout videos, monthly workout challenges, and a growing list of advanced features for planning and tracking your workouts. </p>
-            <div class="d-flex">
-              <button type="button" class="btn btn-outline-primary me-2"> Browse videos</button>
-              <button type="button" class="btn btn-primary px-4">Try Premium</button>
-            </div>
+              <div class="d-flex">
+                <button type="button" class="btn btn-outline-primary me-2"> Browse videos</button>
+                <button type="button" class="btn btn-primary px-4">Try Premium</button>
+              </div>
           </div>
         </div>
       </div>
@@ -127,7 +98,7 @@
       <div class="container">
         <h1 class="display-4 fw-bold text-center mb-5">Testimonies</h1>
       </div>
-        <div class="mx-10-rem mx-5-rem mb-5">
+        <div class="mx-10-rem mx-5-rem">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -172,53 +143,11 @@
       <div class="container">
         <div class="py-5 text-center">
           <h1 class="display-5 fw-bold text-dark col">Ready to try a FitApp workout?</h1>
-          <button type="button" class="btn btn-dark btn-lg px-5 ">Get started Today</button>
+          <div class="mt-4">
+            <button type="button" class="btn btn-dark btn-lg px-5">Get started Today</button>
+          </div>
         </div>
             </div>
     </section>
   </body>
-    <footer class="pt-5">
-      <div class="container">
-        <div class="footer-grid ">
-          <h1 class="display-1 fw-bold mb-5 ms-5">FitApp</h1>
-          <div class=" ms-5  footer-grid-content" style="width: 100%;">
-            <div>
-              <ul class="list-unstyled">
-                <li><a href="" class="text-decoration-none">Healthy Living</a></li>
-                <li><a href="" class="text-decoration-none">Fitness</a></li>
-                <li><a href="" class="text-decoration-none">Health</a></li>
-                <li><a href="" class="text-decoration-none">Nutrition</a></li>
-                <li><a href="" class="text-decoration-none">Healthy Recipes</a></li>
-                <li><a href="" class="text-decoration-none">Experts</a></li>
-              </ul>
-            </div>
-            <div>
-              <ul class="list-unstyled ">
-                <li><a href="" class="text-decoration-none">Workouts
-                </a></li>
-                <li><a href="" class="text-decoration-none">Workout Videos</a></li>
-                <li><a href="" class="text-decoration-none">Custom Workouts</a></li>
-                <li><a href="" class="text-decoration-none">Programs</a></li>
-                <li><a href="" class="text-decoration-none">Workout Programs</a></li>
-                <li><a href="" class="text-decoration-none">Meal Plans Living</a></li>
-              </ul>
-            </div>
-            <div>
-              <ul class="list-unstyled ">
-                <li><a href="" class="text-decoration-none">About
-                </a></li>
-                <li><a href="" class="text-decoration-none">Careers</a></li>
-                <li><a href="" class="text-decoration-none">Tutorials</a></li>
-                <li><a href="" class="text-decoration-none">Our Team
-                </a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="pb-4">
-          <span >Copyright <span>&copy;</span> 2021 FitApp. All rights reserved. Terms and Conditions | Privacy Policy</span>
-        </div>
-    </div>
-    </footer>
-
+  <app-footer></app-footer>

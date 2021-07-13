@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'src/scss/custom.scss';
-@import 'src/scss/footer.scss';
 
 body {
   background-color: #121212;
@@ -11,3 +10,14 @@ header {
   font-family: Poppins, sans-serif;
 }
 
+.mt-10-rem {
+  margin-top: 10rem;
+}
+
+.mx-10-rem {
+  margin: 0 10rem;
+}
+
+.mx-20-rem {
+  margin: 0 20rem;
+}

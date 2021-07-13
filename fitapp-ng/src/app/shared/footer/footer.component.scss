@@ -1,3 +1,5 @@
+@import 'src/styles.scss';
+
 footer {
   font-family: Poppins, sans-serif;
   background: #121212;
@@ -16,11 +18,18 @@ footer {
   justify-content: space-between;
 }
 
+li {
+  padding-bottom: 1rem;
+}
 
 hr {
   margin: 2rem 0;
   border: 1;
   border-top: 1px solid white;
+}
+
+.pt-rem {
+  padding-top: 5rem;
 }
 
 $extra-small: 540px;
@@ -45,6 +54,10 @@ $extra-large: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .pt-rem {
+    padding-top: 3rem;
+  }
+
 }
 
 @media screen and (max-width: $extra-small) {
@@ -52,4 +65,8 @@ $extra-large: 1200px;
     display: grid;
     grid-template-columns: 1fr;
   }
+  .pt-rem {
+    padding-top: 2rem;
+  }
+
 }

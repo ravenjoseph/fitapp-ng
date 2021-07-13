@@ -1,47 +1,12 @@
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
-      <div class="container-fluid">
-        <a class="navbar-brand ms-5" href="#">
-          <img src="src/assets/images/Logo.png"  alt="FitApp">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item ms-5">
-              <a class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item ms-5">
-              <a class="nav-link" href="#">Plans</a>
-            </li>
-            <li class="nav-item dropdown ms-5">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Programs
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Meal Plans</a></li>
-                <li><a class="dropdown-item" href="#">Workout Programs</a></li>
-                <li><a class="dropdown-item" href="#">Workout Types</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <button type="button" class="btn btn-outline-primary ms-5">Join</button>
-            <button type="button" class="btn btn-primary ms-3 me-5">Hi! Login</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
+<app-header></app-header>
   <body>
     <section>
       <div class="container">
           <div class="py-5">
-            <h1 class="display-2 fw-bold">Membership Plans</h1>
+            <h1 class="display-2 fw-bold text-center">Membership Plans</h1>
           </div>
-          <div class="membership-grid">
-            <div class="bg-info bg-gradient membership-grid-1 p-3">
+          <div class="mx-rem">
+            <div class="bg-info bg-gradient mb-1 d-flex flex-column justify-content-between p-3">
               <h3 class="display-4 fw-bold text-dark">Join for free</h3>
               <p class="fs-4">Reach your fitness goals or maintain your healthy lifestyle with <strong class="text-dark">professional</strong></p>
               <ul>
@@ -49,11 +14,11 @@
                 <li>Customizable Calendar</li>
                 <li>Customizable Calendar</li>
               </ul>
-              <div class="d-grid mt-10-rem">
+              <div class="d-grid align-content-end">
                 <button type="button" class="btn btn-dark">Join Now</button>
               </div>
             </div>
-            <div class="bg-primary bg-gradient membership-grid-2 p-3">
+            <div class="bg-primary bg-gradient mb-1 d-flex flex-column justify-content-between p-3">
               <h3 class="display-4 fw-bold text-dark">Premium</h3>
               <p class="fs-4">FB Plus includes everything you get with a free membership and adds brand new , fitness tools</p>
               <ul>
@@ -62,19 +27,19 @@
                 <li>Enter and Track Custom Workouts</li>
               </ul>
               <div class="text-dark price-grid p-1">
-                <div class="bg-white p-1">
+                <div class="bg-white p-1 rounded">
                   <p>monthly</p>
                   <span><strong class="display-5 fw-bold">Rs.199</strong></span>
                 </div>
-                <div class="bg-white p-1">
+                <div class="bg-white p-1 rounded">
                   <p>yearly</p>
                   <span><strong class="display-5 fw-bold">Rs.1999</strong></span>
                 </div>
               </div>
-              <div class="d-grid mt-4">
+              <div class="d-grid mt-3">
                 <button type="button" class="btn btn-dark">Join Now</button>
               </div>            </div>
-            <div class="bg-secondary bg-gradient membership-grid-3 p-3">
+            <div class="bg-secondary bg-gradient  d-flex flex-column justify-content-between p-3">
               <h3 class="display-4 fw-bold text-dark">Join for free</h3>
               <p class="fs-4">Reach your fitness goals or maintain your healthy lifestyle with <strong class="text-dark">professional</strong></p>
               <ul>
@@ -83,16 +48,16 @@
                 <li>Customizable Calendar</li>
               </ul>
               <div class="text-dark price-grid p-1">
-                <div class="bg-white p-1">
+                <div class="bg-white p-1 rounded">
                   <p>monthly</p>
                   <span><strong class="display-5 fw-bold">Rs.399</strong></span>
                 </div>
-                <div class="bg-white p-1">
+                <div class="bg-white p-1 rounded">
                   <p>yearly</p>
                   <span><strong class="display-5 fw-bold">Rs.3599</strong></span>
                 </div>
               </div>
-              <div class="d-grid">
+              <div class="d-grid mt-3">
                 <button type="button" class="btn btn-dark">Join Now</button>
               </div>
             </div>
@@ -100,3 +65,4 @@
       </div>
     </section>
   </body>
+  <app-footer></app-footer>

@@ -1,43 +1,40 @@
 @import 'src/styles.scss';
 
-.membership-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
-  grid-template-rows: auto;
-  column-gap: .25rem;
-
-  .membership-grid-1 {
-    grid-column: 1;
-    grid-row: 1;
-
-
-  }
-
-  .membership-grid-2 {
-    grid-column: 2;
-    grid-row: 1;
-
-
     .price-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      column-gap: .25rem;
+      column-gap: 0.25rem;
     }
 
-  }
-  .membership-grid-3 {
-    grid-column: 3;
-    grid-row: 1;
+.mx-rem {
+  margin: 0 22.5rem;
+}
 
-    .price-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      column-gap: .25rem;
-    }
-
+$extra-small: 540px;
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+@media screen and (max-width: $extra-large) {
+  .mx-rem {
+    margin: 0 15rem;
   }
 }
 
-.mt-10-rem {
-  margin-top: 10rem;
+@media screen and (max-width: $large) {
+  .mx-rem {
+    margin: 0 5rem;
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .mx-rem {
+    margin: 0 4rem;
+  }
+}
+
+@media screen and (max-width: $small) {
+  .mx-rem {
+    margin: 0 ;
+  }
 }
