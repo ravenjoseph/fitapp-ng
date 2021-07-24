@@ -10,6 +10,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { WorkoutProgramsComponent } from './workout-programs/workout-programs.component';
 import { MealPlansComponent } from './meal-plans/meal-plans.component';
 import { LoginComponent } from './login/login.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { LoginComponent } from './login/login.component';
     FooterComponent,
     WorkoutProgramsComponent,
     MealPlansComponent,
-    LoginComponent
+    LoginComponent,
+    SignUpComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
