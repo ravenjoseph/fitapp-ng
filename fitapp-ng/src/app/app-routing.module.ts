@@ -22,7 +22,7 @@ const routes: Routes = [
     component: SignUpComponent
   },
   {
-    path: 'memberships',
+    path: 'memberships-plans',
     component: MembershipComponent
   },
   {
