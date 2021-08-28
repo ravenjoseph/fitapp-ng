@@ -34,6 +34,14 @@ const routes: Routes = [
     component: MealPlansComponent
   },
   {
+    path: 'Sign-up',
+    component: SignUpComponent
+  },
+  {
+    path: 'Login',
+    component: LoginComponent
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }
